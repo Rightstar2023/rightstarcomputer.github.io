@@ -1,0 +1,113 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Right Star Computer Tr. LLC | IT Hardware & Cybersecurity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #ffffff;
+      border-bottom: 2px solid #e5e5e5;
+      padding: 25px 15px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #000;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #000;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+      border-bottom: 1px solid #eee;
+    }
+    h2 {
+      color: #000;
+      margin-bottom: 15px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #f9f9f9;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Right Star Computer Tr. LLC</h1>
+  <p>IT Hardware Solutions & Cybersecurity Software</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    <strong>Right Star Computer Tr. LLC</strong> is a trusted provider of IT hardware
+    and cybersecurity software solutions. We support businesses with reliable
+    technology products designed to secure systems, protect data, and improve
+    operational efficiency.
+  </p>
+  <p>
+    Our focus is on delivering quality hardware, proven cybersecurity solutions,
+    and expert guidance tailored to modern business needs.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <ul>
+    <li>IT Hardware Sales (Servers, Desktops, Laptops, Networking Equipment)</li>
+    <li>Cybersecurity Software Solutions</li>
+    <li>Firewall, Antivirus & Endpoint Protection</li>
+    <li>Network Security & Infrastructure Support</li>
+    <li>IT Consulting & Technology Recommendations</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>
+    Contact us for product inquiries, quotations, or business partnerships.
+  </p>
+  <p>
+    <strong>Email:</strong> info@rightstarcomputer.com<br>
+    <strong>Phone:</strong> +971 567 515034
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Right Star Computer Tr. LLC. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
