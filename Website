@@ -1,9 +1,8 @@
-index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Right Star Computer Tr. LLC | IT Hardware & Cybersecurity</title>
+  <title>Right Star Computer Tr. LLC | IT Cybersecurity & CRM Software</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -60,8 +59,9 @@ index.html
 <body>
 
 <header>
+  <img src="logo.png" alt="Right Star Computer Tr. LLC Logo" style="max-width:120px; margin-bottom:10px;">
   <h1>Right Star Computer Tr. LLC</h1>
-  <p>IT Hardware Solutions & Cybersecurity Software</p>
+  <p>IT Cybersecurity & CRM Software</p>
   <nav>
     <a href="#about">About</a>
     <a href="#services">Services</a>
@@ -72,7 +72,7 @@ index.html
 <section id="about">
   <h2>About Us</h2>
   <p>
-    <strong>Right Star Computer Tr. LLC</strong> is a fast-growing IT cybersecurity and software company driven by a clear vision and strong goals. We focus on delivering reliable, secure, and innovative technology solutions tailored to modern business needs.
+    <strong>Right Star Computer Tr. LLC</strong> is a fast-growing IT cybersecurity and CRM software company driven by a clear vision and strong goals. We focus on delivering reliable, secure, and innovative technology solutions tailored to modern business needs.
   </p>
   <p>
     Our core mission is to make IT simple and cost-effective without compromising on quality or performance. By combining trusted cybersecurity products with expert software solutions, we help organizations operate securely and efficiently.
