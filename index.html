@@ -15,7 +15,10 @@
     header {
   background: #ffffff;
   border-bottom: 2px solid #e5e5e5;
-  padding: 20px 40px;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .header-container {
@@ -26,25 +29,42 @@
   justify-content: space-between;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
+.logo img {
+  max-height: 55px;
+  margin-right: 12px;
 }
 
-.logo img {
-  max-height: 250px;
-  margin-right: 25px;
+.logo h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #000;
+  white-space: nowrap;
 }
 
 nav a {
+  position: relative;
   color: #000;
   margin-left: 25px;
   text-decoration: none;
   font-weight: bold;
+  padding-bottom: 5px;
 }
-nav a:hover {
-      text-decoration: underline;
-    }
+
+/* Hover underline animation */
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #000;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
     section {
       max-width: 1000px;
       margin: auto;
@@ -71,10 +91,10 @@ nav a:hover {
 
 <header>
   <div class="header-container">
-    
+ 
     <div class="logo">
       <img src="logo.jpeg" alt="">
-      <h1>Right Star Computer Tr. LLC</h1>
+      <h1>"Trust us. We can make it"</h1>
     </div>
 
     <nav>
