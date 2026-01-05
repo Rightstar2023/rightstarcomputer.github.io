@@ -1,22 +1,19 @@
 title: "Rightstar Computer Tr. LLC"
 email: "info@rightstarcomputer.com"
-description: "Website for Rightstar Computer"
+description: "Trust us. We can make it"
+theme: Slate
 baseurl: ""
 url: ""
 repository: "Rightstar2023/rightstarcomputer.github.io"
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-remote-theme
 
-markdown: kramdown
-permalink: /:categories/:title/
+---
+layout: home
+title: Welcome
+---
 
-paginate: 5
+Welcome to **Right Star Computer** 🚀
 
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
 
