@@ -1,6 +1,6 @@
 # Basic site settings
-title: "Rightstar Computer"
-email: "you@example.com"
+title: "Rightstar Computer Tr. LLC"
+email: "info@rightstarcomputer.com"
 description: "Personal website for Rightstar Computer"
 # baseurl is the subpath of your site, e.g. "/repo-name". Leave empty for user/organization sites.
 baseurl: ""
@@ -9,9 +9,9 @@ url: ""
 repository: "Rightstar2023/rightstarcomputer.github.io"
 
 # Theme and plugins
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
-  - jekyll-feed
+- jekyll-remote-theme
 
 # Markdown and permalinks
 markdown: kramdown
@@ -34,8 +34,3 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-
-# Tips:
-# - Set `url` to your site URL (e.g. "https://username.github.io" or custom domain) when ready.
-# - If you want to use a different theme, change the `theme` value or use `remote_theme`.
-# - Update `email` and `description` to reflect your site.
