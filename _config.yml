@@ -1,26 +1,18 @@
-# Basic site settings
 title: "Rightstar Computer Tr. LLC"
 email: "info@rightstarcomputer.com"
-description: "Personal website for Rightstar Computer"
-# baseurl is the subpath of your site, e.g. "/repo-name". Leave empty for user/organization sites.
+description: "Website for Rightstar Computer"
 baseurl: ""
-# url is the full URL of your site. Leave empty to use GitHub Pages default.
 url: ""
 repository: "Rightstar2023/rightstarcomputer.github.io"
-
-# Theme and plugins
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-# Markdown and permalinks
 markdown: kramdown
 permalink: /:categories/:title/
 
-# Pagination
 paginate: 5
 
-# Default values
 defaults:
   - scope:
       path: ""
@@ -28,9 +20,3 @@ defaults:
     values:
       layout: "post"
 
-# Files and directories to exclude from the site build
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
