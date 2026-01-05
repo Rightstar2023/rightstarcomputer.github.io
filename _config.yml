@@ -1,9 +1,7 @@
-title: "Rightstar Computer Tr. LLC"
-email: "info@rightstarcomputer.com"
-description: "Trust us. We can make it"
-
+title: Right Star Computer
+url: https://rightstarcomputer.com
 baseurl: ""
-url: ""
+
 repository: "Rightstar2023/rightstarcomputer.github.io"
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
@@ -11,6 +9,7 @@ plugins:
 
 ---
 layout: home
+title: Right Star Computer
 ---
 
 
